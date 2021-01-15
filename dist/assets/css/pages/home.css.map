@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/home.scss"],"names":[],"mappings":"AAAA,OACG,YAAa,CACb,YAAsC","file":"home.css","sourcesContent":["header{\r\n   display: flex;\r\n   background: lightness($color: #000000);\r\n}"]}
