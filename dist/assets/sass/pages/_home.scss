@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 10vh;
+  align-items: center;
+}
+
+.logo_container {
+  flex: 1;
+}
+
+.logo_container,
+.nav_linkss,
+.cart {
+   display: flex;
+   align-items: center;
+}
+
+.nav_linkss {
+   justify-content: space-around;
+   list-style: none;
+}
+
+.logo {
+   margin: 5px;
+}
+
+nav {
+  flex: 2;
+}
+
+.cart {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav_links {
+   color: $primaryColor;
+   font-size: rem(18px);
+   text-decoration: none;
+}
+
+.presention {
+   display: flex;
+   width: 90%;
+   margin: auto;
+   align-items: center;
+}
+
+.introduction {
+   flex: 1;
+}
+
+.intro_text h1 {
+   font-size: rem(44px);
+   font-weight: 500;
+   background: linear-gradient(to right, #494964, #6f6f89);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.cover {
+   flex: 1;
+}
+
+.cover img {
+   height: 60vh;
+}

@@ -13,17 +13,17 @@ header {
 .logo_container,
 .nav_linkss,
 .cart {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .nav_linkss {
-   justify-content: space-around;
-   list-style: none;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .logo {
-   margin: 5px;
+  margin: 5px;
 }
 
 nav {
@@ -36,34 +36,118 @@ nav {
 }
 
 .nav_links {
-   color: $primaryColor;
-   font-size: rem(18px);
-   text-decoration: none;
+  color: $primaryColor;
+  font-size: rem(18px);
+  text-decoration: none;
 }
 
 .presention {
-   display: flex;
-   width: 90%;
-   margin: auto;
-   align-items: center;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
 }
 
 .introduction {
-   flex: 1;
+  flex: 1;
 }
 
 .intro_text h1 {
-   font-size: rem(44px);
-   font-weight: 500;
-   background: linear-gradient(to right, #494964, #6f6f89);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  font-size: rem(44px);
+  font-weight: 500;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro_text p {
+  font-size: rem(22px);
+  margin-top: 5px;
+  color: #585772;
+}
+
+.cta_select {
+  background: transparent;
+  font-family: $fontPrimary;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #c36cbb;
+  color: #c36cbb;
+  cursor: pointer;
+  font-size: rem(16px);
+}
+
+.cta_add {
+  background: #c36cbb;
+  border: none;
+  width: 150px;
+  height: 50px;
+  color: $white;
+  cursor: pointer;
+  margin: 30px 0px 0px 30px;
+}
+
+.cta {
+  padding: 50px 0px 0px 0px;
 }
 
 .cover {
-   flex: 1;
+  flex: 1;
+  width : 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_style {
+   background: #c36cbb;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
 }
 
 .cover img {
-   height: 60vh;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .presention {
+    flex-direction: column;
+  }
+
+  .introduction {
+    text-align: center;
+  }
+  .intro_text h1 {
+    font-size: 30px;
+    margin-top: 5vh;
+  }
+
+  .intro_text p {
+    font-size: 18px;
+  }
+
+  .cta {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .cover img {
+   width: 60vw;
+  }
 }
