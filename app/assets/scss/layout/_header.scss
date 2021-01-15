@@ -1,0 +1,47 @@
+// /*--------------------------------------------------------------
+// #2.5 Site Header
+// --------------------------------------------------------------*/
+// .site-header { 
+//     padding: 20px 0;
+//     box-shadow: 0px 2px 5px 5px rgba($black, 0.05);
+//     background-color: $white;
+//     .site-logo{
+//         width: 122px;
+//         min-height: 56px;
+//         margin-right: 32px;
+//     }
+//     .menu-area{
+//         .menu-list{
+//             display: flex;
+//             align-items: center;
+//             li{
+//                 margin: 0 16px;
+//                 a{
+//                     padding: 8px 0px;
+//                     color: $baseTextColor;
+//                     position: relative;
+//                     font-weight: 500;
+//                     &:after{
+//                         content: '';
+//                         position: absolute;
+//                         width: 0;
+//                         height: 2px;
+//                         background-color: $baseTextColor;
+//                         bottom: 8px;
+//                         left: 0;
+//                         // transform: scale(0);
+//                         transition: .3s ease-in-out;
+//                     }
+//                     &:hover{    
+//                         color: $baseTextColor;
+//                         &:after{    
+//                             // transform: scale(1);
+//                             width: 100%;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+	
+// }

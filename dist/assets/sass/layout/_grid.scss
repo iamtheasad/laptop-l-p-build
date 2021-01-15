@@ -1,0 +1,45 @@
+// /*--------------------------------------------------------------
+// #2.3 Grid System
+// --------------------------------------------------------------*/
+// .container {
+//     max-width: 1355px;
+//     width: 100%;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-left: auto;
+//     margin-right: auto;
+
+//     @media(min-width: 1921px){
+//         max-width: 70%;
+//     }
+    
+//     @media(min-width: 1407px){
+//         max-width: 1355px;
+//     }
+    
+//     @media(max-width: 1023px){
+//         max-width: 90%;
+//     }
+// }
+
+// .container-sm{
+//     max-width: 1020px;
+//     width: 100%;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .vh-100 {
+//     min-height: 100vh;
+// }
+
+// .row{
+//     margin-left: -4px;
+//     margin-right: -4px;
+//     [class*='col-']{
+//         padding-left: 8px;
+//         padding-right: 8px;
+//     }
+// }

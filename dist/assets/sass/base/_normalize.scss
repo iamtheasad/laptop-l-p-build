@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+#1.1 Theme Reset Style
+--------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+// Sections
+// ========================================================================== 
+
+
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    // scroll-behavior: smooth;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+button,
+button:focus{
+    outline: none;
+    box-shadow: none;
+}
+label, button{
+    cursor: pointer;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}

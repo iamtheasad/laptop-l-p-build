@@ -1,0 +1,56 @@
+// .sidebar-menu{
+//     max-width: 216px;
+//     width: 100%;
+//     background-color: #fafafa;
+//     padding: 18px;
+//     height: 100vh;
+//     overflow-y: auto;
+//     .site-logo{
+//         max-width: 122px;
+//         width: 100%;
+//         margin-bottom: 40px;
+//     }
+//     .menu-area{
+//         ul{
+//             li{
+//                 margin-bottom: 8px;
+//                 a{
+//                     font-weight: 700;
+//                     font-size: rem(16);
+//                     color: $black;
+//                     border-radius: 4px;
+//                     width: 100%;
+//                     background-color: transparent;
+//                     transition: .3s ease-in-out;
+//                     min-height: 40px;
+//                     display: flex;
+//                     align-items: center;
+//                     .icon{
+//                         margin-right: 16px;
+//                         transition: .3s ease-in-out;
+//                     }
+//                 }
+//                 &.active> a, & a:hover{
+//                     background-color: #0E1217;
+//                     color: $white;
+//                     .icon{
+//                         filter: brightness(0) invert(1);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .collapse,.collapsing{
+//         ul{
+//             background-color: #ECEEF3;
+//             padding: 4px 0 !important;
+//             border-radius: 4px;
+//             li{
+//                 a{
+//                     padding: 8px 16px;
+//                 }
+//             }
+//         }
+//     }
+// }

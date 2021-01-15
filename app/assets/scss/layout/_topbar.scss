@@ -1,0 +1,46 @@
+// .topbar{
+//     padding: 20px 0;
+//     .account-menu{
+//         background-color: $primaryColor;
+//         border-radius: 50px;
+//         padding: 4px;
+//         .avater{
+//             border-radius: 50%;
+//             margin-right: 10px;
+//             overflow: hidden;
+//             width: 40px;
+//             height: 40px;
+//             display: flex;
+//             img{
+//                 object-fit: cover;
+//                 object-position: center;
+//             }
+//         }
+//         .acc-name{
+//             color: $white;
+//             font-weight: 600;
+//             font-size: rem(16);
+//             margin-right: 10px;
+//         }
+//         .dropdown-icon{
+//             width: 40px;
+//             height: 40px;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             font-size: rem(30);
+//             color: $white;
+//             border-radius: 50%;
+//             background-color: transparent;
+//             transition: .3s ease-in-out;
+//             border: none;
+//             cursor: pointer;
+//             &:hover{
+//                 background-color: lighten($primaryColor,  10);
+//             }
+//             &:after{
+//                 display: none;
+//             }
+//         }
+//     }
+// }
