@@ -46,6 +46,7 @@ nav {
   width: 90%;
   margin: auto;
   align-items: center;
+  position: relative;
 }
 
 .introduction {
@@ -93,21 +94,21 @@ nav {
 
 .cover {
   flex: 1;
-  width : 60vh;
+  width: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .cart_style {
-   background: #c36cbb;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 25px;
-   height: 25px;
-   cursor: pointer;
+  background: #c36cbb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
 
 .cover img {
@@ -148,6 +149,46 @@ nav {
   }
 
   .cover img {
-   width: 60vw;
+    width: 60vw;
   }
+}
+
+.big_circle, .medium_circle, .small_circle {
+  position: absolute;
+  z-index: -1;
+}
+
+.big_circle {
+  top: 0px;
+  right: 0px;
+  width: 30%;
+  height: 100%;
+  opacity: .5;
+}
+
+.medium_circle {
+  top: 30%;
+  right: 30%;
+  width: 30%;
+  height: 60%;
+  opacity: 0.4;
+}
+
+.small_circle {
+  width: 17%;
+  left: 20%;
+  bottom: 0%;
+}
+
+.laptop_select img {
+  width: auto;
+}
+
+.laptop_select {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  right: 20%;
+  position: absolute;
+  bottom: 0px;
 }
